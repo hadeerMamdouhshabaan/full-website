@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+body{
+    height: 100svh;
+    width: 100svw;
+    max-height: 100svh;
+    max-width: 100svw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+   
+}
+aside{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 25svw;
+    height: 100svh;
+    background-color: red;
+    padding-top: 10px;
+}
+main{
+    width:70svw ;
+}
+
+#h{
+    margin-top: 30px;
+    font-size: 45px;
+}
+h3{
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    margin: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+
+}
+.a1:hover{
+    color: black;
+    background-color: white;
+}
+h1{
+    font-size: 40px;
+    padding: 10px;
+}
+main{
+    margin-top: 10px;
+
+}
+h2{
+    color: orangered;
+    font-size: 50px;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+h2::before{
+    content: " ";
+    background-color: orangered;
+    height: 8px;
+    width: 40px;
+    bottom: 0px;
+    left:  15px;
+    margin-top: 20px;
+    position: absolute;
+
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+  
+}
+.im{
+  
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+   
+   
+}
+.im img{
+    opacity: 0.8;
+}
+.im img:hover{
+    opacity: 1;
+}
+img{
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+}
+.design{
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    display: flex;
+}
+h4{
+    padding: 5px;
+    font-size: 20px;
+}
+.cardcontent{
+    margin-left: 10px;
+}
+.cardcontent h3{
+    font-size: 25px;
+    color: black;
+}
+.card{
+    width: 300px;
+   
+}
+.carimg{
+    width: 100%;
+    height: 300px;
+}
+span{
+
+    display: inline-block;
+    color: gray;
+    font-weight: bold;
+    padding: 10px 5px;
+   
+}
+.lists{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lists ul{
+    width: 380px;
+    background-color: rgb(240, 230, 230);
+   
+}
+.basic{
+    text-align: center;
+    color: white;
+    background-color:rgb(41, 37, 37);
+    height: 80px;
+    padding-top: 20px;
+    font-size: 25px;
+   
+    
+}
+.floo{
+    text-align: center;
+    color:black;
+   border-bottom: 1px solid rgb(151, 137, 137);
+   padding-top: 16px;
+   padding-bottom: 16px;
+    font-size: 25px;
+}
+.btn{
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.b1{
+    height: 50px;
+    width: 100px;
+    background-color:white;
+    font-size: 20px;
+    color: black;
+    border: 0px;
+}
+.b1:hover{
+    color: white;
+    background-color: black;
+}
+.lists h3{
+    color: black;
+}
+.pro{
+    text-align: center;
+    color: white;
+    background-color:#ff0303;
+    height: 80px;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.b2{
+    height: 50px;
+    width: 100px;
+    background-color:#ff0303;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+}
+.b2:hover{
+        background-color: black;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    height: 40px;
+    width: 100%;
+}
+.submit{
+    background-color:#ff0303;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    border: 0px;
+    margin-bottom: 50px;
+
+}
+.submit:hover{
+    color: black;
+    background-color:rgb(206, 194, 194);
+
+}
+.footer{
+    height: 100px;
+    background-color: rgb(241, 237, 237);
+    padding: 10px;
+}
+.footer p{
+    position: absolute;
+    padding: 6px;
+    bottom: 1;
+    right: 0;
+    margin-right: 20px;
+
+}
+.footer a{
+    color: black;
+}
+.footer a:hover{
+    color: gray;
+    
+}
